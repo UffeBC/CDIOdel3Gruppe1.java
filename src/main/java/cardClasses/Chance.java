@@ -9,7 +9,62 @@ import TheBoard.Base;
 import java.util.Objects;
 
 
-public  class Chance {
+public  class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chance {
     private static Chancekort[] chanceCards=new Chancekort[20];
     int testKortMode=0;
 

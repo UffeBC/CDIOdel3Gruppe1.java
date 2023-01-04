@@ -235,6 +235,16 @@ public class Fields {
             }
         }
     }
+    public static void ResetOnePlayerOwnStatus(GUI_Player selectedplayer, int[][] OwnedtrueOwnedFalse){
+        //  Goes through all fields and sets owned status to "Not Owned" - with an int 0
+        for (int n = 0; n < Base.fieldNR(); n++) {
+//OwnedtrueOwnedFalse[n][0] = n;
+            if (selectedplayer.getNumber()+1==1) {
+                OwnedtrueOwnedFalse[n][selectedplayer.getNumber()+1] = 0;
+            }
+        }
+
+    }
 }
 /*
 
@@ -247,7 +257,7 @@ Terningen virker men skal sættes ned til 1  ( spil er bedre )
 3. - FIXED -
 forskellige sprog skal fungerer bedre
 4.  - FIXED -
-Vinderen skal vises rigtigt ( det gø den ikke ved flere end 2 spillere )
+Vinderen skal vises rigtigt ( det gør den ikke ved flere end 2 spillere )
 5. - FIXED -
 spiller 4 ser ud til altid at vinde
 6. - FIXED -

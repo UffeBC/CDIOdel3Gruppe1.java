@@ -283,6 +283,14 @@ public class Main {
                 gui.showMessage(selectedPlayer.getName() + dialog[DialogNR]); DialogNR++;
             }
             answerGameOk = false;
+
+
+
+
+
+
+
+            GameMechanics.Fields.ResetOnePlayerOwnStatus(selectedPlayer,OwnedtrueOwnedFalse);
 //-------------------------------------------------------------------------------------------
 //
 //          Game Winner display
